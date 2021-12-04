@@ -12,8 +12,9 @@ const findf1 = async () => {
   subh3split.shift();
   const foundItem = subh3split.find(item => {
     const lower = item.toLowerCase();
-    return lower.indexOf('mr.suit') != -1;
+    return lower.indexOf('purple') != -1;
   });
+  console.log(subh3split);
   if (foundItem) console.log('itemFound');
 };
 
